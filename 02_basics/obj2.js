@@ -41,14 +41,14 @@ console.log(user2.fullname.user2_1.lastName)
 const obj1 = { 1: "a", 2: "b" }
 const obj2 = { 3: "c", 4: "d" }
 
-// ❌ This creates a nested object, not a merge
+// This creates a nested object, not a merge
 // const obj3 = { obj1, obj2 }
 
-// ✅ Using Object.assign()
+// using Object.assign()
 // First argument {} ensures original objects are not mutated
 // const obj3 = Object.assign({}, obj1, obj2)
 
-// ✅ Best practice (Spread operator)
+// Best practice (Spread operator)
 // Cleaner, faster, more readable
 const obj3 = { ...obj1, ...obj2 }
 
