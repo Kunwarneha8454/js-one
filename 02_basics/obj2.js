@@ -77,8 +77,6 @@ const users = [
 // Accessing object inside array
 users[1].email   // undefined (email key does not exist)
 
-
-
 // --------------------
 // OBJECT UTILITY METHODS
 // --------------------
