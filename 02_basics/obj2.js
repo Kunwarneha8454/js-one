@@ -12,8 +12,6 @@ user1.id = "abc45"
 user1.name = "cassie"
 user1.isLogin = false
 
-
-
 // --------------------
 // NESTED OBJECTS
 // --------------------
@@ -30,7 +28,6 @@ const user2 = {
 
 // Accessing deeply nested properties
 console.log(user2.fullname.user2_1.lastName)
-
 
 
 // --------------------
