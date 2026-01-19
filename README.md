@@ -1,2 +1,2 @@
-# js-one
-A code repo for javaScript.
+# jS
+javaScript
