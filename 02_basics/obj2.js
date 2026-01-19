@@ -7,7 +7,6 @@
 
 const user1 = {}              // Non-singleton object (object literal)
 // Most commonly used in real-world codebases
-
 // Adding properties dynamically
 user1.id = "abc45"
 user1.name = "cassie"
@@ -53,8 +52,6 @@ const obj2 = { 3: "c", 4: "d" }
 const obj3 = { ...obj1, ...obj2 }
 
 console.log(obj3)
-
-
 
 // --------------------
 // ARRAY OF OBJECTS
