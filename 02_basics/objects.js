@@ -3,7 +3,6 @@
 // --------------------
 // Object.create() is used to create singleton objects
 // (only one instance exists)
-// Not used here, just noted for concept clarity
 
 
 
